@@ -1,0 +1,102 @@
+[
+  {
+    "text": "My driver took a really long route and I was charged way more than usual for this trip. This should have been a 15 minute ride but took 35 minutes.",
+    "intent": "trip_issue"
+  },
+  {
+    "text": "I tried to book a ride but my credit card keeps getting declined. I just used it 10 minutes ago at a store so I know it works.",
+    "intent": "payment"
+  },
+  {
+    "text": "I need to change my email address on my account but can't find where to do it in the app.",
+    "intent": "account"
+  },
+  {
+    "text": "My driver was driving very dangerously, running red lights and speeding. I felt unsafe and want to report this immediately.",
+    "intent": "safety"
+  },
+  {
+    "text": "The driver was extremely rude to me, yelling when I asked him to turn down the music. This is unacceptable.",
+    "intent": "driver_issue"
+  },
+  {
+    "text": "I cancelled my ride because the driver was taking too long, but now I was charged a $7 cancellation fee. Why?",
+    "intent": "cancellation"
+  },
+  {
+    "text": "I was overcharged on my last trip and need a refund of $15. The fare should have been $20 but I was charged $35.",
+    "intent": "refund"
+  },
+  {
+    "text": "The app keeps crashing whenever I try to request a ride. I've tried restarting my phone but it still crashes.",
+    "intent": "app_bug"
+  },
+  {
+    "text": "I have a promo code SAVE20 but it's not applying to my ride. It says the code is invalid but I just got it from your email.",
+    "intent": "promo"
+  },
+  {
+    "text": "The app says my driver will arrive in 3 minutes but it's been 15 minutes and they're still 10 minutes away according to the map.",
+    "intent": "eta_wait"
+  },
+  {
+    "text": "Can I schedule a ride for tomorrow morning at 6 AM to the airport?",
+    "intent": "other"
+  },
+  {
+    "text": "I left my phone in the car last night. How can I contact my driver to get it back?",
+    "intent": "other"
+  },
+  {
+    "text": "My card was charged twice for the same trip. I see two charges of $28.50 on my statement.",
+    "intent": "payment"
+  },
+  {
+    "text": "I need to update my password but the reset link isn't working.",
+    "intent": "account"
+  },
+  {
+    "text": "Driver refused to let me bring my service dog in the car. This is discrimination and illegal!",
+    "intent": "driver_issue"
+  },
+  {
+    "text": "The driver cancelled on me after I waited 10 minutes. Can I get compensated for my time?",
+    "intent": "cancellation"
+  },
+  {
+    "text": "I was charged for a ride I never took. Someone must have hacked my account. I need a full refund of $45.",
+    "intent": "refund"
+  },
+  {
+    "text": "The map in the app isn't loading at all. Just shows a blank screen.",
+    "intent": "app_bug"
+  },
+  {
+    "text": "My friend gave me a $10 off promo code but when I enter it, nothing happens.",
+    "intent": "promo"
+  },
+  {
+    "text": "I've been waiting 25 minutes and my driver keeps circling the block instead of coming to my pickup location.",
+    "intent": "eta_wait"
+  },
+  {
+    "text": "How do I add a stop to my trip? I need to pick up a friend on the way.",
+    "intent": "other"
+  },
+  {
+    "text": "Driver was texting while driving the entire trip. This is extremely dangerous and unacceptable.",
+    "intent": "safety"
+  },
+  {
+    "text": "The driver took a detour without asking and now my trip cost is 50% higher than the estimate.",
+    "intent": "trip_issue"
+  },
+  {
+    "text": "Can I get Uber receipts for tax purposes? I need records of all my business trips.",
+    "intent": "other"
+  },
+  {
+    "text": "I was charged a cleaning fee of $80 but I didn't make any mess in the car. This is fraudulent.",
+    "intent": "refund"
+  }
+]
