@@ -4,7 +4,7 @@
 
 This project implements an end-to-end customer support agent for Uber that classifies user intents, retrieves relevant knowledge, generates appropriate responses, and intelligently escalates to human agents when needed.
 
-**Read time: ~12 minutes**
+**Read time: ~12 minutes** • **Last updated:** 2026-09-12
 
 ---
 
@@ -39,23 +39,25 @@ cd uber-cs-agent-takehome
 # Install dependencies
 pip install -e .
 
-# Or with just required packages:
+# Or install only required packages:
 pip install scikit-learn numpy rank-bm25 openai
 ```
 
 ### Run the Complete Pipeline
 
+Execute these commands in sequence to set up and test the agent:
+
 ```bash
-# 1. Create training data from sample threads
+# 1. Generate training data from sample support threads
 python scripts/create_sample.py
 
-# 2. Train intent classifier and create knowledge base
+# 2. Train the intent classifier and build the knowledge base
 python scripts/train.py
 
-# 3. Run evaluation on golden set
+# 3. Evaluate agent performance on the golden test set
 python scripts/evaluate.py
 
-# 4. Test agent interactively
+# 4. Try the agent interactively with your own queries
 python scripts/run_agent.py --interactive
 ```
 
